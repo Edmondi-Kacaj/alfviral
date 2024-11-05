@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fegorsoft</groupId>
   <artifactId>alfviral</artifactId>
-  <version>1.4.0</version>
+  <version>1.4.0-SNAPSHOT</version>
   <name>AIO - SDK 4.0</name>
   <description>All-In-One (AIO) project for SDK 4.0</description>
   <packaging>pom</packaging>
