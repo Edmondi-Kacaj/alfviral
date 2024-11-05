@@ -31,7 +31,7 @@ EXIT /B %ERRORLEVEL%
 
 :start
     docker volume create openssh-keys-volume
-    docker-compose -f "%COMPOSE_FILE_PATH%" up --build -d
+    docker-compose -f "%COMPOSE_FILE_PATH%" up -d
 EXIT /B 0
 :down
     if exist "%COMPOSE_FILE_PATH%" (
